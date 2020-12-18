@@ -20,5 +20,7 @@ type person struct {
 gorme.FreshDB(db,&Cfg{},&person{}) //db 是gorm连接成功的返回类型；
 ``````
 ##注意：
-    同步操作只同步字段，不会保存历史数据，请谨慎操作！
+    同步操作只同步字段，不会保存历史数据，请谨慎操作！<br>
+	test
+	
 
